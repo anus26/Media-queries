@@ -1,0 +1,30 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    font-size: 1.3rem;
+}
+@media(max-width:1200px){
+    body{
+        background-color: pink;
+        color: white;
+
+    }
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+img{
+    height: 500px;
+}
